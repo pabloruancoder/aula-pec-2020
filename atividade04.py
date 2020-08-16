@@ -1,0 +1,10 @@
+altura=int(input())
+largura=int(input())
+comprimento=int(input())
+Area_piso= (largura * comprimento)
+Volume_sala=(largura * comprimento * altura)
+Area_Paredes=(2 * altura)*(largura + 2)*(altura * comprimento)
+ 
+print(f'{Area_piso}')
+print(f'{Volume_sala}')
+print(f'{Area_Paredes}')
