@@ -1,4 +1,4 @@
-dia = input('dia/')
-mes = input('mes/')
-ano = input('ano/')
-print(dia, mes, ano)
+dia = int(input())
+mes = int(input())
+ano = int(input())
+print(f'{dia}/{mes}/{ano}')
